@@ -5,7 +5,7 @@ export default function Header(){
     <div className="container px-3">
       <Link href="/" className="navbar-brand pe-3">
         <Image src="/logo.png" width="120" height={43} alt="UNCHE" />
-        UNCHE
+        NCHE
       </Link>
       <div id="navbarNav" className="offcanvas offcanvas-end">
         <div className="offcanvas-header border-bottom">
