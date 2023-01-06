@@ -1,11 +1,12 @@
 import Image from "next/image"
+import Link from "next/link"
 export default function Header(){
     return <header className="header navbar navbar-expand-lg bg-light shadow-sm shadow-dark-mode-none fixed-top">
     <div className="container px-3">
-      <a href="index.html" className="navbar-brand pe-3">
+      <Link href="/" className="navbar-brand pe-3">
         <Image src="/logo.png" width="120" height={43} alt="UNCHE" />
         UNCHE
-      </a>
+      </Link>
       <div id="navbarNav" className="offcanvas offcanvas-end">
         <div className="offcanvas-header border-bottom">
           <h5 className="offcanvas-title">Menu</h5>
@@ -74,7 +75,7 @@ export default function Header(){
               </div> */} 
             </li>
             <li className="nav-item ">
-              <a href="#" className="nav-link" data-bs-toggle="dropdown" aria-current="page">Editorial Board</a>
+              <a href="#" className="nav-link" data-bs-toggle="dropdown" aria-current="page">Instructions</a>
               {/* <ul className="dropdown-menu">
                 <li><a href="account-details.html" className="dropdown-item">Account Details</a></li>
                 <li><a href="account-security.html" className="dropdown-item">Security</a></li>
