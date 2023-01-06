@@ -1,9 +1,9 @@
-
+import Image from "next/image"
 export default function Header(){
     return <header className="header navbar navbar-expand-lg bg-light shadow-sm shadow-dark-mode-none fixed-top">
     <div className="container px-3">
       <a href="index.html" className="navbar-brand pe-3">
-        <img src="logo.png" width="120" alt="UNCHE"/>
+        <Image src="/logo.png" width="120" height={43} alt="UNCHE" />
         UNCHE
       </a>
       <div id="navbarNav" className="offcanvas offcanvas-end">
