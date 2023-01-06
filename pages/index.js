@@ -6,7 +6,7 @@ import {Inter} from '@next/font/google';
 import NextLink from 'next/link';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const inter = Inter({subsets:["latin"]});
+const inter = Inter({subsets:["latin"],weight:"400"});
 export default function Home() {
   
   const [numOfPages,setNumOfPages] = useState(null);
@@ -81,10 +81,10 @@ export default function Home() {
           
 
           {/* Load more button */}
-          <button className="btn btn-lg btn-outline-primary w-100 mt-4">
+          <a className="btn btn-lg btn-outline-primary w-100 mt-4" href="articles/CoverPage.pdf">
             <i className="bx bx-down-arrow-alt fs-xl me-2"></i>
             Download This Issue
-          </button>
+          </a>
         </div>
       </div>
 
@@ -258,7 +258,7 @@ Technology and Innovation Educational Achievement for Females in Uganda </a>
             </div>
 
             {/* Tags */}
-            <div className="card card-body mb-4">
+            {/* <div className="card card-body mb-4">
               <h3 className="h5">Tags</h3>
               <div className="d-flex flex-wrap">
                 <a href="#" className="btn btn-outline-secondary btn-sm px-3 my-1 me-2">#lifestyle</a>
@@ -270,10 +270,10 @@ Technology and Innovation Educational Achievement for Females in Uganda </a>
                 <a href="#" className="btn btn-outline-secondary btn-sm px-3 my-1 me-2">#network</a>
                 <a href="#" className="btn btn-outline-secondary btn-sm px-3 my-1 me-2">#engineering</a>
               </div>
-            </div> 
+            </div> */} 
 
             {/* Follow Us */}
-            <div className="card mb-4">
+            {/* <div className="card mb-4">
               <div className="card-body">
                 <h5 className="mb-4">Follow Us</h5>
                 <a href="#" className="btn btn-icon btn-sm btn-secondary btn-linkedin me-2 mb-2">
@@ -289,14 +289,14 @@ Technology and Innovation Educational Achievement for Females in Uganda </a>
                   <i className="bx bxl-instagram"></i>
                 </a>
               </div>
-            </div> 
+            </div> */} 
 
             
-            <div className="card border-0 bg-faded-primary bg-repeat-0 bg-size-cover" style={{minHeight:"25rem"}}>
+            {/* <div className="card border-0 bg-faded-primary bg-repeat-0 bg-size-cover" style={{minHeight:"25rem"}}>
               <div className="card-body">
                 <h5 className="h3 mb-4 pb-2 text-center">Ad Banner</h5>
               </div>
-            </div> 
+            </div> */} 
           </div>
         </div>
       </aside>

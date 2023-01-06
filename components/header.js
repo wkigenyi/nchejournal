@@ -15,7 +15,7 @@ export default function Header(){
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             
             <li className="nav-item">
-              <a href="#" className="nav-link" data-bs-toggle="dropdown">Institutions</a>
+              <a href="#" className="nav-link" data-bs-toggle="dropdown">Editorial Board</a>
               {/* <div className="dropdown-menu">
                 <div className="d-lg-flex pt-lg-3">
                   <div className="mega-dropdown-column">
@@ -74,7 +74,7 @@ export default function Header(){
               </div> */} 
             </li>
             <li className="nav-item ">
-              <a href="#" className="nav-link" data-bs-toggle="dropdown" aria-current="page">Programs</a>
+              <a href="#" className="nav-link" data-bs-toggle="dropdown" aria-current="page">Editorial Board</a>
               {/* <ul className="dropdown-menu">
                 <li><a href="account-details.html" className="dropdown-item">Account Details</a></li>
                 <li><a href="account-security.html" className="dropdown-item">Security</a></li>
@@ -88,13 +88,16 @@ export default function Header(){
               </ul> */} 
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Services</a>
+              <a href="#" className="nav-link">Archives</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">News & Events</a>
+              <a href="#" className="nav-link">Indexing</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">Resources</a>
+              <a href="#" className="nav-link">Submission</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Contact Us</a>
             </li>
           </ul>
         </div>
