@@ -29,5 +29,37 @@ export const articles: Array<{
             `Jimmy Alani (Phd Candidate)`, `Bruno Yawe (Phd)`,
             `John Mutenyo (Phd)`
         ]
+    },
+    {
+        id:2,
+        title:`Building Educational Research Capacity: Challenges and Opportunities from the
+        Perspectives of Faculty Staff of Selected Private Universities in Uganda`,
+        abstract:`This article argues that educational research in Uganda is facing severe glitches,
+        such as low research capacity. Most private universities seem to be more focused
+        on their day-to-day survival than identifying their research-specific needs and
+        engaging in quality research activities. Issues of research capacity-building remain
+        a major concern amid a lack of resources and institutional environments in which
+        academics work. Capacity-building and research engagements would help to
+        strengthen strategic planning and influencing policy. Hence, this study fills this
+        gap. Specifically, it explores the perceptions and experiences of academic staff
+        regarding research capacity-building. The study identifies the challenges that
+        hamper educational research and capacity-building opportunities associated with
+        the development of research capacities as perceived by a sample of staff members
+        in the identified institutions. To achieve this objective, a qualitative research design
+        was adopted using focus group interviews to collect data from a sample of staff. In
+        total, 12 focus group discussions were conducted with between 8–10 persons per
+        group. Rank ordering of responses on specific issues was done during data analysis.
+        The findings showed that the major factors responsible for low research output
+        include capacity-building gaps, lack of financial resources, difficulty in identifying
+        specific calls for abstracts and manuscripts, work overload for faculty staff, limited
+        research writing skills, and bad experiences during previous research engagements,
+        as presented and discussed below. Based on the findings, we make the following
+        recommendations. First, the government should earmark a significant amount in
+        the national budget for research and innovation that institutions in Uganda can
+        easily access, including private academic institutions. Second, institutions should
+        continuously engage their staff regarding research and improve their research
+        capacity through training, workshops and symposiums.`,
+        authors:[`Rosemary Nakijoba (PhD)`, `Awobamise Ayodeji O. (PhD)`],
+        pathToPdf:``
     }
 ]
