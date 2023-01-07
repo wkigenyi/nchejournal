@@ -2,6 +2,7 @@ export const articles: Array<{
     id:Number, 
     title:String,
     abstract:String,
+    tags?:Array<String>,
     pathToPdf:String,
     authors:Array<String>}> = [
     {
@@ -28,7 +29,9 @@ export const articles: Array<{
         authors:[
             `Jimmy Alani (Phd Candidate)`, `Bruno Yawe (Phd)`,
             `John Mutenyo (Phd)`
-        ]
+        ],
+        tags:[`Economic growth`, `Higher school education growth`, `Innovation advancement`,
+            `Input productivity growth`, `Technological progress`]
     },
     {
         id:2,
@@ -60,6 +63,7 @@ export const articles: Array<{
         continuously engage their staff regarding research and improve their research
         capacity through training, workshops and symposiums.`,
         authors:[`Rosemary Nakijoba (PhD)`, `Awobamise Ayodeji O. (PhD)`],
-        pathToPdf:``
+        pathToPdf:``,
+        tags:[`Educational research`, `Higher education`, `Private universities`, `Uganda`]
     }
 ]

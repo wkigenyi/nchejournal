@@ -78,6 +78,13 @@ export default function Article(){
 
           {/* Comment form */}
           <div className="col-lg-9">
+              {article.tags && article.tags.length?<div className="card card-body mb-4">
+                  <h3 className="h5">Tags</h3>
+                  <div className="d-flex flex-wrap">
+                    {article.tags.map((a,i) =><a key={i} href="#" className="btn btn-outline-secondary btn-sm px-3 my-1 me-2">{`#${a}`}</a>)}
+                    
+                  </div>
+                </div>:null}
             
           </div>
 

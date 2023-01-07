@@ -1,9 +1,9 @@
-import {Inter} from '@next/font/google';
+import {Inter,Manrope} from '@next/font/google';
 import Head from 'next/head';
 import Footer from '../components/footer';
 import Header from '../components/header';
 
-const inter = Inter({subsets:["latin"],weight:"400"});
+const inter = Manrope({subsets:["latin"]});
 export default function Layout({children}){
     return (
         <>
