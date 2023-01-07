@@ -1,9 +1,9 @@
-import {Inter,Manrope} from '@next/font/google';
+import {Manrope} from '@next/font/google';
 import Head from 'next/head';
-import Footer from '../components/footer';
+//import Footer from '../components/footer';
 import Header from '../components/header';
 
-const inter = Manrope({subsets:["latin"]});
+const manrope = Manrope({subsets:["latin"]});
 export default function Layout({children}){
     return (
         <>
@@ -12,7 +12,7 @@ export default function Layout({children}){
             <meta name="description" content="NCHE Journal" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <main className={`${inter.className} page-wrapper`}>
+            <main className={`${manrope.className} page-wrapper`}>
                 <Header/>
                 {children}
             </main>

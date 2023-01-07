@@ -26,15 +26,15 @@ export default function Article(){
       {/* Article title + Meta */}
       <section className="container mt-4 pt-lg-2 pb-3">
         <h1 className="pb-3" style={{maxWidth:970}}>{article.title}</h1>
-        <div className="d-flex flex-md-row flex-column align-items-md-center justify-content-md-between mb-3">
+        <div className="d-flex flex-md-row flex-column align-items-md-left justify-content-md-between mb-3">
           
-          {article.authors.map((a,i) =><div className="d-flex align-items-center position-relative ps-md-3 pe-lg-5 mb-2" key={i} >
+          <div className="d-flex align-items-center position-relative ps-md-3 pe-lg-5 mb-2">
             {/* <img src="assets/img/avatar/39.jpg" className="rounded-circle" width="60" alt="Avatar"/> */}
             <div className="ps-3">
-              <h6 className="mb-1">Author</h6>
-              <a href="#" className="fw-semibold stretched-link">{a}</a>
+              
+              <a href="#" className="fw-semibold stretched-link" style={{textDecorationLine:"none"}}>{article.authors.toString()}</a>
             </div>
-          </div>)}
+          </div>
           
           
         </div>
