@@ -6,14 +6,14 @@ export default function ArticleList(){
     return (
         <Layout>
             {/* Breadcrumb */}
-      <nav className="container mt-lg-4 pt-5" aria-label="breadcrumb">
+      {/* <nav className="container mt-lg-4 pt-5" aria-label="breadcrumb">
         <ol className="breadcrumb mb-0 pt-5">
           <li className="breadcrumb-item">
             <Link href="/"><i className="bx bx-home-alt fs-lg me-1"></i>Home</Link>
           </li>
           <li className="breadcrumb-item active" aria-current="page">Vol 10,Issue 1</li>
         </ol>
-      </nav>
+      </nav> */}
 
 
       {/* Page content */}
