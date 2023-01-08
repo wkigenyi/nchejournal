@@ -10,16 +10,16 @@ export default function Article(){
   }
   return (
     <Layout>
-      <nav className="container pt-4 mt-lg-3" aria-label="breadcrumb">
-        <ol className="breadcrumb mb-0">
+      <nav className="container mt-lg-4 pt-5" aria-label="breadcrumb">
+        <ol className="breadcrumb mb-0 pt-5">
           <li className="breadcrumb-item">
-            <Link href="/"><i className="bx bx-home-alt fs-lg me-1"></i>Home</Link>
+            <Link href={"/"}><i className="bx bx-home-alt fs-lg me-1"></i>Home</Link>
           </li>
           <li className="breadcrumb-item">
-            <Link href="/">Uganda Higher Education Review</Link>
+            <Link href={"/journal"}><i className="bx fs-lg me-1"></i>Vol 10, Issue 1</Link>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">Article</li>
-        </ol> 
+          <li className="breadcrumb-item active" aria-current="page">The Uganda Higher Education Review</li>
+        </ol>
       </nav>
 
 
@@ -28,16 +28,33 @@ export default function Article(){
         <h1 className="pb-3" style={{maxWidth:970}}>{article.title}</h1>
         <div className="d-flex flex-md-row flex-column align-items-md-left justify-content-md-between mb-3">
           
-          <div className="d-flex align-items-center position-relative ps-md-3 pe-lg-5 mb-2">
-            {/* <img src="assets/img/avatar/39.jpg" className="rounded-circle" width="60" alt="Avatar"/> */}
-            <div className="ps-3">
-              
-              <a href="#" className="fw-semibold stretched-link" style={{textDecorationLine:"none"}}>{article.authors.toString()}</a>
-            </div>
+        <div class="d-flex align-items-center flex-wrap text-muted mb-md-0 mb-4 col-lg-9">
+            {/* <div class="fs-xs border-end pe-3 me-3 mb-2">
+              <span class="badge bg-faded-primary text-primary fs-base">Technology</span>
+            </div> */}
+            <h6 class="mb-1">{article.authors.toString()}</h6>
+            
           </div>
+
+          
           
           
         </div>
+        <div className="d-flex flex-md-row flex-column align-items-md-left justify-content-md-between mb-3">
+          
+        {article.tags && article.tags.length ?<div class="d-flex align-items-center flex-wrap text-muted mb-md-0 mb-4 col-lg-9">
+            {article.tags.map((a,i)=><div key={i} className="fs-xs pe-3 me-3 mb-2">
+              <span className="badge bg-faded-primary text-primary fs-base">{a}</span>
+            </div> )}
+            
+            
+          </div>:null}
+
+          
+          
+          
+        </div>
+        
       </section>
 
 
@@ -78,13 +95,7 @@ export default function Article(){
 
           {/* Comment form */}
           <div className="col-lg-9">
-              {article.tags && article.tags.length?<div className="card card-body mb-4">
-                  <h3 className="h5">Tags</h3>
-                  <div className="d-flex flex-wrap">
-                    {article.tags.map((a,i) =><a key={i} href="#" className="btn btn-outline-secondary btn-sm px-3 my-1 me-2">{`#${a}`}</a>)}
-                    
-                  </div>
-                </div>:null}
+              
             
           </div>
 
@@ -117,7 +128,7 @@ export default function Article(){
       <section className="container mb-5 pt-md-4">
         <div className="d-flex flex-sm-row flex-column align-items-center justify-content-between mb-4 pb-1 pb-md-3">
           <h2 className="h1 mb-sm-0">Related Articles</h2>
-          <Link href="/" className="btn btn-lg btn-outline-primary ms-4">
+          <Link href="/journal" className="btn btn-lg btn-outline-primary ms-4">
             All Articles
             <i className="bx bx-right-arrow-alt ms-1 me-n1 lh-1 lead"></i>
           </Link>

@@ -103,7 +103,7 @@ export default function Header(){
           </ul>
         </div>
         <div className="offcanvas-header border-top">
-          <a href="#" className="btn btn-primary w-100">
+          <a href="#" className="btn btn-secondary w-100">
             
             &nbsp;Numbers Here
           </a>
