@@ -16,7 +16,7 @@ export default function Article(){
             <Link href={"/"}><i className="bx bx-home-alt fs-lg me-1"></i>Home</Link>
           </li>
           <li className="breadcrumb-item">
-            <Link href={"/journal"}><i className="bx fs-lg me-1"></i>Vol 10, Issue 1</Link>
+            <Link href={"/articles"}><i className="bx fs-lg me-1"></i>Vol 10, Issue 1</Link>
           </li>
           <li className="breadcrumb-item active" aria-current="page">The Uganda Higher Education Review</li>
         </ol>
@@ -128,7 +128,7 @@ export default function Article(){
       <section className="container mb-5 pt-md-4">
         <div className="d-flex flex-sm-row flex-column align-items-center justify-content-between mb-4 pb-1 pb-md-3">
           <h2 className="h1 mb-sm-0">Related Articles</h2>
-          <Link href="/journal" className="btn btn-lg btn-outline-primary ms-4">
+          <Link href="/articles" className="btn btn-lg btn-outline-primary ms-4">
             All Articles
             <i className="bx bx-right-arrow-alt ms-1 me-n1 lh-1 lead"></i>
           </Link>

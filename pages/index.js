@@ -1,15 +1,16 @@
 import Layout from '../layouts/layout';
 import Link from 'next/link';
 import Script from 'next/script';
+import bg from '../public/articles/cover2.jpg';
 export default function Index(){
-    const bgImage = require("../public/articles/cover-image.jpg")
+    const bgImage = require("../public/articles/cover.jpg")
     return (
         <Layout>
             {/* Hero */}
       <section className="dark-mode position-relative jarallax pb-xl-3" data-jarallax data-speed="0.4">
 
       {/* Parallax img */}
-        <div class="jarallax-img bg-dark opacity-70" style={{backgroundImage: `url(${bgImage})`}}></div>
+        <div className="jarallax-img bg-dark opacity-70" style={{backgroundImage: `url(${bgImage.src})`}}></div>
 
 
         {/* Overlay bg */}
@@ -35,7 +36,7 @@ export default function Index(){
               <h1 className="display-5 pb-md-3">The Uganda Higher Education Review</h1>
               <div className="d-flex flex-wrap mb-md-5 mb-4 pb-md-2 text-white">
                 <div className="border-end border-light h-100 mb-2 pe-3 me-3">
-                  <span className="badge bg-faded-light fs-base">Education</span>
+                  <span className="badge fs-base" style={{backgroundColor:"gold",color:"black"}}>Research</span>
                 </div>
                 <div className="border-end border-light mb-2 pe-3 me-3 opacity-70">December 2022</div>
                 <div className="d-flex align-items-center mb-2 text-nowrap">
@@ -49,8 +50,8 @@ export default function Index(){
                   </div>
                 </div>
               </div>
-              <Link href={"/journal"} className="btn btn-lg btn-primary">
-                Read article
+              <Link href={"/articles"} className="btn btn-lg btn-primary">
+                View articles
                 <i className="bx bx-right-arrow-alt ms-2 me-n1 lead"></i>
               </Link>
             </div>
@@ -76,11 +77,11 @@ export default function Index(){
                         <article className="card h-100 border-0 shadow-sm card-hover-primary">
                           <div className="card-body pb-0">
                             <div className="d-flex align-items-center justify-content-between mb-3">
-                              <a href="#" className="badge fs-sm text-nav bg-white text-decoration-none position-relative zindex-2">Education</a>
+                              <a href="#" className="badge fs-sm text-decoration-none position-relative zindex-2" style={{backgroundColor:"gold",color:"black"}}>Research</a>
                               <span className="fs-sm text-muted">Dec 2022</span>
                             </div>
                             <h3 className="h5 mb-0">
-                              <Link href={"/journal"} className="stretched-link">Journal of the National Council for Higher Education, Vol. 10 Issue 1, December 2022</Link>
+                              <Link href={"/articles"} className="stretched-link">Journal of the National Council for Higher Education, Vol. 10 Issue 1, December 2022</Link>
                             </h3>
                           </div>
                           <div className="card-footer d-flex align-items-center py-4 text-muted border-top-0">
