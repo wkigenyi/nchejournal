@@ -147,5 +147,289 @@ export const articles: Array<{
     research index and rankings.`,
     tags:[`Higher institutions of learning`, `Institutional research index`, `Institutional
         research output`, `Research model`, `University ranking`]
+},{
+    id:6,
+    title:`University Sustainable Development and Management of Academic Staff in Higher
+    Institution of Learning in Central Uganda`,
+    authors:[`Nabakiibi Agnes (PhD)`],
+    abstract:`The study aimed at university sustainability development and the management
+    of academic staff in Uganda. The sample comprised 80 respondents, including
+    the teachers, heads of department and top managers in the universities. Data
+    was analysed using one-way ANOVA by way of Excel statistical data analysis.
+    Qualitative data was analysed using descriptions in themes deciphered in the
+    course of the study. The majority of the academic staff lacked adequate knowledge
+    about what was required of them in connection with university sustainability
+    development. There was a significant relationship between university sustainability
+    development and the management of academic staff in Uganda. It was concluded
+    that many universities do not promote cross-campus collaborations that connect
+    campus administration and students, which has resulted in inadequacy of funds
+    to sufficiently train and manage staff. The study concluded that the majority
+    of universities are still young in their sustainability effort of fully engaging the
+    academic staff in a number of planned activities. It was also concluded that the
+    majority of the academic staff are hesitant to get involved in university sustainability
+    development due to lack of equity accorded to some of the staff. There is need to
+    strengthen training of the academic staff in all areas that the universities feel are
+    appropriate in order to greatly maintain and boost its sustainability development.
+    There is also need to encourage a bottom-top approach for effective and sufficient
+    communication and to provide appropriate and well-informed criteria to everyone
+    on the mechanism used to reward the best academic staff as a way of increasing
+    the positive impact of university sustainability development.`,
+    tags:[`University sustainable development`, `Management of academic staff`, `Higher
+        institution of learning`, `Uganda`]
+},{
+    id:7,
+    title:`Information Communication Technologies and Implementation of Education for
+    Sustainable Development in Higher Education in Uganda: A case of Busitema
+    University`,
+    authors:[`Margaret Stella Ujeyo`, `Rovincer Najjuma`, `Ronald Bisaso`],
+    abstract:`Information and Communications Technologies (ICTs) play an important role in
+    Education for Sustainable Development (ESD), one of the multiple approaches
+    advanced in the last two decades to address the global sustainability crisis. The
+    role of higher education, especially as a main driver of change, in ameliorating the
+    immense sustainability challenges is widely acknowledged. Educators in higher
+    education institutions must strategically engage in profound transformative
+    programmatic, pedagogical and organisational shifts in order to play this role.
+    ICTs are important in enabling educators to make the necessary modifications to
+    effectively promote themes, skills, knowledge, values and attitudes in learners
+    that will foster sustainable development. This study adopted a concurrent mixed
+    strategy to investigate the use of ICT in the implementation of ESD practices by
+    academic staff of Busitema University in Uganda. It sought to find out the dominant
+    ICT activities that staff used for implementing particular ESD practices. The sample
+    consisted of 134 academic staff and students selected using simple random and
+    purposive sampling. The study employed a questionnaire, interview and focus
+    group guides as primary data collection instruments. The results point to a low level
+    of ICT use, with the dominant ICT activities being of communication and sharing information, information creation and management, which did not add much value
+    to the educational experiences of the learners in ESD. The study recommends staff
+    training in ICT skills to address the challenge that comes with the use of new digital
+    technologies, addressing the issues of access to ICTs and internet infrastructure.`,
+    tags:[`Information and Communications Technologies (ICTs)`, `Sustainable development`,`Education for Sustainable Development (ESD)`, `Higher education`]
+},{
+    id:8,
+    title:`Employee Engagement and Job Performance among Academic Staff in Public
+    Universities in Uganda`,
+    authors:[`Emmanuel Nachonga`, `Leon Matagi`, `Lydia Emuron`],
+    abstract:`The purpose of this study was to find out the relationship between employee
+    engagement and job performance among university academic staff. The study,
+    conducted at Makerere University, was guided by questions on the levels of
+    engagement and performance among academic staff. A null hypothesis on the
+    significance of employee engagement and job performance was also stated for
+    investigation. The population of the study was comprised of 485 academic staff
+    from10 different schools. A sample of 136 respondents was reached using a selfadministered
+    questionnaire containing closed-ended items along a Likert scale as
+    well as open-ended questions. Analysis was done using the Statistical Package for
+    Social Sciences (SPSS) version 21 by way of sums, means, frequencies, percentages
+    and a bivariate, Pearson correlation coefficient. The findings, based on percentages
+    and in agreement with statements, revealed that both employee engagement and
+    job performance levels were high. There was a positive significant relationship
+    between employee engagement and job performance (r=.391, p<0.05). The null
+    hypothesis was rejected, meaning that engagement levels impact on performance.
+    The recommendations, basing on the findings, focused on central and section
+    managers developing strategies to heighten engagement levels in order to improve
+    performance. This includes timely disbursement of financial and non-financial
+    rewards, involvement of staff in decision, proper management of performance
+    with reference to acceptable, barrier-free and well-scheduled appraisals as well as
+    the provision of a conducive working environment.`,
+    tags:[`Employee engagement`, `Job performance`, `Universities`]
+},{
+    id:9,
+    title:`Satisfaction with Human Resource Management Practices and Job Performance of
+    Academic Staff in Public Universities in Uganda: A Case of Kyambogo University`,
+    authors:[`George Wilson Kasule`, `Wilson Mugizi`, `Joseph Rwothumio`],
+    abstract:`The quality of job performance of employees, regardless of context, cannot be any
+    better than the quality of Human Resource Management Practices (HRMPs) at the
+    place of work. This cross-sectional survey study provides insights regarding the
+    relationship between satisfaction with HRMPs and the job performance of academic
+    staff in public universities in Uganda. The study comprised a sample of 198 from
+    a population of 406 full-time academic staff of Kyambogo University. Data was
+    collected using a questionnaire and analysed using SPSS for descriptive analysis
+    and SmartPLS for Structural Equation Modelling (SEM). Descriptive results showed
+    that teaching performance was high while research and publication and community
+    service performance were moderate. The results revealed that satisfaction with
+    placement, development, engagement and talent retention HRMPs was moderate
+    while satisfaction with human resource (HR) recruitment was slightly high.
+    Overall, job performance was high while satisfaction with HRMPs was moderate.
+    SEM revealed that while HR recruitment practices and placement had a positive
+    significant influence on job performance, the influence of HR development,
+    retention and engagement practices was insignificant. It was concluded that high
+    and moderate satisfaction of academic staff with HR recruitment and placement,
+    respectively, is imperative for their job performance. However, moderate satisfaction
+    with HR development, engagement and talent retention practices impedes job
+    performance of academic staff. This study recommended that university managers
+    should ensure that HR recruitment and placement practices implemented provide
+    satisfaction to academic staff. University managers should also ensure that
+    satisfying HR development, engagement and talent retention are designed and
+    implemented.`,
+    tags:[`Academic staff`, `Human Resource Management Practices`, `Job performance`,
+`Public University`, `Satisfaction`]
+},{
+    id:10,
+    title:`Talent Management: The Game Changer for Work Engagement of Non-Teaching
+    Workforce at Kyambogo University, Uganda `,
+    authors:[`Wilson Mugizi`, `Joseph Rwothumio`, `Mark Micheal Waiswa`,
+        `Wilberforce Turyahikayo`],
+    abstract:`The challenge in public universities in Uganda is that university non-teaching staff
+    are disengaged and take their jobs for granted, hence never make an effort to serve
+    to the satisfaction of students and other stakeholders. This study examined whether
+    talent management strategies employed by the universities were a game changer for
+    work engagement of the non-teaching workforce in public universities. Specifically,
+    the study tested whether talent management in terms of talent attraction, talent
+    development and talent retention had a relationship with work engagement of the
+    non-teaching workforce in public universities. The study employed a correlational
+    research design on a sample of 201 non-teaching staff. Data was collected using
+    a questionnaire survey. The findings revealed that talent attraction and talent
+    development had a positive significant relationship with work engagement of the
+    non-teaching workforce. However, talent attraction had a negative and insignificant
+    relationship with work engagement of the non-teaching workforce. It was concluded
+    that talent attraction strategies in terms of selective recruitment and selection, and
+    talent development in the form of performance appraisal, training and promotion
+    are game changers for work engagement of the non-teaching staff. However,
+    weak retention strategies hamper employee engagement. The study recommends
+    that managers of universities should implement game-changing talent attraction
+    strategies and talent development practices to enhance work engagement of the
+    non-teaching workforce. It is also recommended that university managers should
+    strengthen talent retention strategies to promote work engagement of the nonteaching
+    workforce.`,
+    tags:[`Talent attraction`, `Development`,`Management`, `Retention`,`Work engagement`]
+},{
+    id:11,
+    title:`PhD Studentship and Research Supervisors during the COVID-19 Pandemic at a
+    Premier University in Uganda`,
+    authors:[`Enoch Kimanje`, `Olive Lunyolo`],
+    abstract:`Keeping in close touch with a research supervisor is often vital for any university
+    student. Unfortunately, this is hardly possible during the period of a pandemic. In
+    this study, we explored the supervisory challenges that the doctoral students and
+    their research supervisors at a school in a premier university in Uganda experienced
+    and the coping strategies they utilised during the COVID-19 pandemic. We were
+    provoked to undertake the study due to the persistent undocumented complaints
+    from graduate students about their inability to get in touch with their research
+    supervisors because of the closure of the university that was brought about by
+    the pandemic. Taking the interpretive approach, we used a phenomenological
+    research design and collected data by interviewing PhD students and their research
+    supervisors, whom we purposively selected. We analysed the data using the
+    thematic content analysis technique that we based on the factors influencing doctoral
+    research supervision, namely student factors, supervisor factors and institutional
+    factors. Our study findings revealed key research supervisory challenges. At
+    the students’ level, we found loneliness, ICT challenges, unexpected study costs
+    and family disturbances. While at the supervisor’s level, we found inadequate
+    supervisor support and ineffective communication. Yet at the institutional level,
+    we noted unclear institutional research policies and ineffective communication. We
+    therefore concluded that several supervisory challenges negatively affected the
+    students’ doctoral studies during the pandemic. However, there were varied but
+    unclear strategies participants utilised to address these challenges. Hence, we
+    recommend to university leaders to formulate clear institutional graduate training
+    strategies for mitigating disruptions occasioned by any future pandemic.`,
+    tags:[`PhD research supervision`, `COVID-19 pandemic`, `Research supervision
+        challenges`, `Coping strategies`, `Premier university`]
+},{
+    id:12,
+    title:`Using the European Customer Satisfaction Index (ECSI) Model to Examine Student
+    Satisfaction in the Context of Universities in Uganda.`,
+    abstract:`Student satisfaction (SS) is one of the strategic tools for a university in a competitive
+    environment. Hence the need to investigate SS in universities. The aim of our study
+    was to use the European Customer Satisfaction Index (ECSI) model to examine
+    SS in universities in Uganda. The ECSI model suggests that SS is dependent on
+    university image (UI), student expectations (SE), service quality of infrastructure
+    and tangible service elements (SQITSE), service quality of people and processes
+    (SQPP) and perceived value of investment (PVI). The ECSI model further suggests
+    that PVI is dependent on UI, SE, SQITSE and SQPP. It also suggests that student
+    loyalty (SL) is dependent on UI, SS and SQPP and finally that SE is dependent on
+    UI. We designed a self-administered questionnaire on those constructs and had a
+    sample of 704 students from seven universities in Uganda respond to it. We analysed
+    our data using linear regression. Our findings gave support to the ECSI model in
+    examining SS. We established that all the relationships among the constructs in the
+    ECSI model were significant except the relationship between SQITSE and SS. We
+    concluded that the ECSI model was appropriate for examining SS in the context
+    of universities in Uganda. We recommend that university authorities allocate
+    resources to improving their respective UI, SE, SQPP and PVI so as to enhance SS
+    which invariably leads to SL`,
+    authors:[`Martha Kyoshaba`, `Fred E. K. Bakkabulindi`,
+        `Christopher B. Mugimu`],
+    tags:[`ECSI`, `Linear regression`,`Student satisfaction`,`Uganda`, `Universities`]
+},{
+    id:13,
+    title:`Factors Affecting Students’ Performance, Enrolment and Retention in Science Subjects
+    in Secondary Schools in Uganda: A Case Study of Kigezi Region of Uganda
+    `,
+    authors:[`Proscovia Namayanja`, `Edwin Akugizibwe`, `Damian Kajunguri`,
+        `Ronald Katende`, `Tumuhimbise Edson Bazeyo`],
+    abstract:`In this paper, we investigate the teaching of science subjects before and after the
+    lockdown and explore the factors that affect students’ confidence in passing national
+    examinations. The research was carried out in the districts of the Kigezi region in
+    Uganda, where 435 students from 12 schools and 60 science teachers provided both
+    qualitative and quantitative data on the state of science education before, during
+    and post the Covid-19-induced lockdown through interviews and questionnaires.
+    Multiple regression analysis was performed to establish the relationship between
+    syllabus coverage, practical coverage, likability of the science subjects, and
+    confidence in passing both school and national examinations. We note that poor
+    syllabus coverage and lack of adequate practical time are often blamed for the poor
+    pass rates in science subjects in secondary schools in Uganda, but this research
+    indicates that blaming these two alone is simplistic at best. Our results show that
+    although the two factors are important to students by themselves, they are not the
+    only determinants of students’ confidence in success in national examinations. We
+    show that subject likability is an indispensable determinant of students’ confidence
+    in passing science subjects in national examinations, and together with practical
+    teaching as well as syllabus coverage, a winning formula for improving confidence
+    in passing and ultimately enrolment is obtained. From this, we conclude that improving students’ attitude and perception of science should be emphasized as
+    much as advocacy for practical teaching and completion of the syllabus in time.
+    This will improve students’ perception and performance in the sciences with the
+    overall effect of boosting retention rates in STEM subjects.`,
+    tags: [`STEM`, `Multiple regression`, `Covid-19`, `Science enrolment`,`Student motivation`,
+    `Likability`]
+    
+},{
+    id:14,
+    title:`Overcoming Policy and Practice Fragility and Enhancing Security of Science,
+    Technology and Innovation Educational Achievement for Females in Uganda
+    `,
+    authors:[`Mary N. Okwakol`, `Margaret Stella Suubi Ujeyo`, `Dennis Zami
+        Atibuni`, `Biira Saphina`, `Paul Waako`],
+    abstract: `The Sustainable Development Goals 2030 (SDG 4 and 5) provide for the attainment
+    of quality education for all, including women. Africa Agenda 2063, Uganda
+    Vision 2040, the Third National Development Plan (NDP III) similarly all provide
+    unequivocal reiterations on the need for the provision of quality inclusive education
+    that will drive national socio-economic transformation. This is particularly
+    envisioned through a robust science, technology, engineering and mathematics
+    (STEM) education that fosters relevant science, technology and innovation (STI)
+    knowledge, skills, values, attitudes and competences to constitute the epicentre
+    of the transformation. Promoting the achievement of women in equal measure
+    to men in STEM and STI is critical to the socio-economic transformation agenda.
+    However, there exist gaps in the policy framework and the implementation of
+    STEM education that undermine STI educational achievement, especially for
+    women. This conceptual paper is aimed at examining the fragility of legal and
+    policy frameworks for STEM/STI education and the strategies for enhancing
+    STI educational achievement for females in the Ugandan context. We argue that
+    strengthening the policy implementation of gender-responsive STEM/STI education
+    is a precursor of socio-economic transformation of nations and the entire world.
+    The paper adopts a semi-systematic literature review methodology to examine legal
+    and policy documents for strengths, flaws and implementation gaps with the aim
+    of recommending strategies for enhancing STEM/STI educational achievement
+    for females in Uganda.`,
+    tags:[`Education`,`Gender Policy`, `Science`, `Technology`, `Innovation`]
+},{
+    id:15,
+    title:`How Internationalised Is Your Curriculum? University Graduate Students Speak Out`,
+    authors:[`Justin Ayebare`, `Muhamadi Kaweesi`],
+    abstract:`Internationalisation of the curriculum has created changes to the traditional
+    curriculum but little attention in research has been paid to the student perspective
+    on these changes, and how they experience them. This paper aims to fill the
+    gap by reporting on the findings of graduate students’ perceptions of the
+    internationalisation of the curriculum at Makerere University in Uganda. This
+    study adopted a sequential explanatory survey study in which we collected both
+    quantitative and qualitative data from a sample of 180 graduate students. The
+    findings showed that the majority of the respondents agreed that their curricula
+    had an international dimension. This was commonly seen by graduate students
+    in terms of international academic staff, international students, travel abroad
+    programmes for students, courses with an international focus, comparative studies
+    and focus on ICTs. The participants voiced concerns about logistical constraints and
+    the universality of knowledge. These findings reinforced the earlier research that
+    proposed that the above aspects are critical in the IoC and can act as benchmarks to
+    guide further work in the direction of the university’s internationalisation agenda.
+    No earlier works had similar results, at least in the context of the Global South
+    where this study was conducted. Further studies need to involve other actors in
+    higher education to explore more fully the notion of IoC to explain better the basis
+    of students’ perceptions and experiences of IoC reported in this study.
+    `,
+    tags:[`Higher education`,`Internationalisation of the curriculum`,`Graduate students`]
 }
+
 ]
