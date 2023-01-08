@@ -1,12 +1,16 @@
 import Layout from '../layouts/layout';
 import Link from 'next/link';
+import Script from 'next/script';
 export default function Index(){
+    const bgImage = require("../public/articles/cover-image.jpg")
     return (
         <Layout>
             {/* Hero */}
-      <section className=" position-relative jarallax pb-xl-3" data-jarallax data-speed="0.4">
+      <section className="dark-mode position-relative jarallax pb-xl-3" data-jarallax data-speed="0.4">
 
-        
+      {/* Parallax img */}
+        <div class="jarallax-img bg-dark opacity-70" style={{backgroundImage: `url(${bgImage})`}}></div>
+
 
         {/* Overlay bg */}
         <span className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-70 zindex-1"></span>
@@ -110,6 +114,7 @@ export default function Index(){
           </div>
         </div>
       </section>
+      <Script src="vendor/jarallax/dist/jarallax.min.js"/>
         </Layout>
     );
 }
