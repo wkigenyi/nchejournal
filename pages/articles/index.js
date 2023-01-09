@@ -85,8 +85,8 @@ export default function ArticleList(){
           
         </div>
 
-        {/* Pagination */}
-        <nav aria-label="Page navigation example">
+        {/* Pagination not active at the moment */}
+        {/* <nav aria-label="Page navigation example">
           <ul className="pagination justify-content-center pt-md-4 pt-2">
             <li className="page-item">
               <a href="#" className="page-link">
@@ -117,7 +117,7 @@ export default function ArticleList(){
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </section>
         </Layout>
     );
