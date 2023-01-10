@@ -4,9 +4,12 @@ export const articles: Array<{
     abstract:String,
     tags?:Array<String>,
     pathToPdf?:String,
-    authors:Array<String>}> = [
+    authors:Array<String>,
+    publicationId:number
+}> = [
     {
-        id:1,
+        id:21,
+        publicationId:3,
         title:`Role of Higher Education Growth in Enhancing Economic Growth, Innovation
     Advancement and Technological Progress in Uganda (1970–2014)`,
         abstract:`We examine the role of growth in higher education in enhancing economic growth,
@@ -25,7 +28,7 @@ export const articles: Array<{
         technological progress and TF the potential of causing higher education GER
         growth to increase by 1.08, 5.02, 1.36 and 1.42%, respectively, during the given
         period. Third, over the given period, a 1% growth in innovation, technical progress`,
-        pathToPdf:"RoleOfHigherEducationGrowth.pdf",
+        pathToPdf:"Article21.pdf",
         authors:[
             `Jimmy Alani (Phd Candidate)`, `Bruno Yawe (Phd)`,
             `John Mutenyo (Phd)`
@@ -34,7 +37,8 @@ export const articles: Array<{
             `Input productivity growth`, `Technological progress`]
     },
     {
-        id:2,
+        id:22,
+        publicationId:3,
         title:`Building Educational Research Capacity: Challenges and Opportunities from the
         Perspectives of Faculty Staff of Selected Private Universities in Uganda`,
         abstract:`This article argues that educational research in Uganda is facing severe glitches,
@@ -63,12 +67,16 @@ export const articles: Array<{
         continuously engage their staff regarding research and improve their research
         capacity through training, workshops and symposiums.`,
         authors:[`Rosemary Nakijoba (PhD)`, `Awobamise Ayodeji O. (PhD)`],
-        pathToPdf:``,
+        pathToPdf:"Article22.pdf",
         tags:[`Educational research`, `Higher education`, `Private universities`, `Uganda`]
     },
-    {id:3,title:`Research Management and Research Productivity among Lecturers at Kyambogo
-    University, Uganda`,authors:[`Moses Kanaabi`, `George Wilson Kasule`, `Philip Owino`],
-    abstract:`Management is a critical factor for the performance of every organisation. Research
+    {
+        id:23,
+        publicationId:3,
+        title:`Research Management and Research Productivity among Lecturers at Kyambogo
+    University, Uganda`,
+        authors:[`Moses Kanaabi`, `George Wilson Kasule`, `Philip Owino`],
+        abstract:`Management is a critical factor for the performance of every organisation. Research
     management has thus become highly professionalised, with universities instituting
     systems, practices and structures to manage their research function. Universities
     also appoint high-level academic and administrative staff to coordinate, oversee
@@ -89,9 +97,12 @@ export const articles: Array<{
     lecturers from conducting research. The study thus recommended the institution of
     supportive research management systems, practices and structures in the university
     for increased research output among their academic staff.`,
-    tags:[`Management`, `Research productivity`, `Lecturers`]
-},{
-    id:4,
+    tags:[`Management`, `Research productivity`, `Lecturers`],
+    pathToPdf:"Article23.pdf",
+},
+{
+    id:24,
+    publicationId:3,
     title:`Policy Support and Research Productivity among Lecturers in Ugandan Public
     Universities: Case of Kyambogo University`,
     authors:[`Moses Kanaabi`, `George Wilson Kasule`, `Philip Owino`],
@@ -118,9 +129,11 @@ export const articles: Array<{
     lecturers’ research productivity in public universities. The findings will likely be
     used to inform university managers on generating practical policy interventions
     to boost research productivity among lecturers in public universities.`,
-    tags:[`Lecturers`, `Policy support`, `Public university`, `Research productivity`]
+    tags:[`Lecturers`, `Policy support`, `Public university`, `Research productivity`],
+    pathToPdf:"Article24.pdf",
 },{
-    id:5,
+    id:25,
+    publicationId:3,
     title:`Enhancing Research Output in Higher Institutions of Learning: A Case Study of
     Busitema University Research Model`,
     authors:[`Asaph Keikara Muhumuza`, `Fulgensia Kamugisha Mbabazi`,
@@ -146,9 +159,11 @@ export const articles: Array<{
     study involving different HIL, especially in computing their respective institutional
     research index and rankings.`,
     tags:[`Higher institutions of learning`, `Institutional research index`, `Institutional
-        research output`, `Research model`, `University ranking`]
+        research output`, `Research model`, `University ranking`],
+    pathToPdf:"Article25.pdf",
 },{
-    id:6,
+    id:26,
+    publicationId:3,
     title:`University Sustainable Development and Management of Academic Staff in Higher
     Institution of Learning in Central Uganda`,
     authors:[`Nabakiibi Agnes (PhD)`],
@@ -175,9 +190,11 @@ export const articles: Array<{
     on the mechanism used to reward the best academic staff as a way of increasing
     the positive impact of university sustainability development.`,
     tags:[`University sustainable development`, `Management of academic staff`, `Higher
-        institution of learning`, `Uganda`]
+        institution of learning`, `Uganda`],
+    pathToPdf:"Article26.pdf",
 },{
-    id:7,
+    id:27,
+    publicationId:3,
     title:`Information Communication Technologies and Implementation of Education for
     Sustainable Development in Higher Education in Uganda: A case of Busitema
     University`,
@@ -202,9 +219,11 @@ export const articles: Array<{
     to the educational experiences of the learners in ESD. The study recommends staff
     training in ICT skills to address the challenge that comes with the use of new digital
     technologies, addressing the issues of access to ICTs and internet infrastructure.`,
-    tags:[`Information and Communications Technologies (ICTs)`, `Sustainable development`,`Education for Sustainable Development (ESD)`, `Higher education`]
+    tags:[`Information and Communications Technologies (ICTs)`, `Sustainable development`,`Education for Sustainable Development (ESD)`, `Higher education`],
+    pathToPdf:"Article27.pdf",
 },{
-    id:8,
+    id:28,
+    publicationId:3,
     title:`Employee Engagement and Job Performance among Academic Staff in Public
     Universities in Uganda`,
     authors:[`Emmanuel Nachonga`, `Leon Matagi`, `Lydia Emuron`],
@@ -229,9 +248,11 @@ export const articles: Array<{
     rewards, involvement of staff in decision, proper management of performance
     with reference to acceptable, barrier-free and well-scheduled appraisals as well as
     the provision of a conducive working environment.`,
-    tags:[`Employee engagement`, `Job performance`, `Universities`]
+    tags:[`Employee engagement`, `Job performance`, `Universities`],
+    pathToPdf:"Article28.pdf",
 },{
-    id:9,
+    id:29,
+    publicationId:3,
     title:`Satisfaction with Human Resource Management Practices and Job Performance of
     Academic Staff in Public Universities in Uganda: A Case of Kyambogo University`,
     authors:[`George Wilson Kasule`, `Wilson Mugizi`, `Joseph Rwothumio`],
@@ -260,9 +281,11 @@ export const articles: Array<{
     satisfying HR development, engagement and talent retention are designed and
     implemented.`,
     tags:[`Academic staff`, `Human Resource Management Practices`, `Job performance`,
-`Public University`, `Satisfaction`]
+`Public University`, `Satisfaction`],
+pathToPdf:"Article29.pdf",
 },{
-    id:10,
+    id:30,
+    publicationId:3,
     title:`Talent Management: The Game Changer for Work Engagement of Non-Teaching
     Workforce at Kyambogo University, Uganda `,
     authors:[`Wilson Mugizi`, `Joseph Rwothumio`, `Mark Micheal Waiswa`,
@@ -289,9 +312,11 @@ export const articles: Array<{
     non-teaching workforce. It is also recommended that university managers should
     strengthen talent retention strategies to promote work engagement of the nonteaching
     workforce.`,
-    tags:[`Talent attraction`, `Development`,`Management`, `Retention`,`Work engagement`]
+    tags:[`Talent attraction`, `Development`,`Management`, `Retention`,`Work engagement`],
+    pathToPdf:"Article30.pdf",
 },{
-    id:11,
+    id:31,
+    publicationId:3,
     title:`PhD Studentship and Research Supervisors during the COVID-19 Pandemic at a
     Premier University in Uganda`,
     authors:[`Enoch Kimanje`, `Olive Lunyolo`],
@@ -319,9 +344,11 @@ export const articles: Array<{
     recommend to university leaders to formulate clear institutional graduate training
     strategies for mitigating disruptions occasioned by any future pandemic.`,
     tags:[`PhD research supervision`, `COVID-19 pandemic`, `Research supervision
-        challenges`, `Coping strategies`, `Premier university`]
+        challenges`, `Coping strategies`, `Premier university`],
+        pathToPdf:"Article31.pdf",
 },{
-    id:12,
+    id:32,
+    publicationId:3,
     title:`Using the European Customer Satisfaction Index (ECSI) Model to Examine Student
     Satisfaction in the Context of Universities in Uganda.`,
     abstract:`Student satisfaction (SS) is one of the strategic tools for a university in a competitive
@@ -344,9 +371,11 @@ export const articles: Array<{
     which invariably leads to SL`,
     authors:[`Martha Kyoshaba`, `Fred E. K. Bakkabulindi`,
         `Christopher B. Mugimu`],
-    tags:[`ECSI`, `Linear regression`,`Student satisfaction`,`Uganda`, `Universities`]
+    tags:[`ECSI`, `Linear regression`,`Student satisfaction`,`Uganda`, `Universities`],
+    pathToPdf:"Article32.pdf",
 },{
-    id:13,
+    id:33,
+    publicationId:3,
     title:`Factors Affecting Students’ Performance, Enrolment and Retention in Science Subjects
     in Secondary Schools in Uganda: A Case Study of Kigezi Region of Uganda
     `,
@@ -374,10 +403,12 @@ export const articles: Array<{
     This will improve students’ perception and performance in the sciences with the
     overall effect of boosting retention rates in STEM subjects.`,
     tags: [`STEM`, `Multiple regression`, `Covid-19`, `Science enrolment`,`Student motivation`,
-    `Likability`]
+    `Likability`],
+    pathToPdf:"Article33.pdf",
     
 },{
-    id:14,
+    id:34,
+    publicationId:3,
     title:`Overcoming Policy and Practice Fragility and Enhancing Security of Science,
     Technology and Innovation Educational Achievement for Females in Uganda
     `,
@@ -404,9 +435,11 @@ export const articles: Array<{
     and policy documents for strengths, flaws and implementation gaps with the aim
     of recommending strategies for enhancing STEM/STI educational achievement
     for females in Uganda.`,
-    tags:[`Education`,`Gender Policy`, `Science`, `Technology`, `Innovation`]
+    tags:[`Education`,`Gender Policy`, `Science`, `Technology`, `Innovation`],
+    pathToPdf:"Article34.pdf",
 },{
-    id:15,
+    id:35,
+    publicationId:3,
     title:`How Internationalised Is Your Curriculum? University Graduate Students Speak Out`,
     authors:[`Justin Ayebare`, `Muhamadi Kaweesi`],
     abstract:`Internationalisation of the curriculum has created changes to the traditional
@@ -429,7 +462,28 @@ export const articles: Array<{
     higher education to explore more fully the notion of IoC to explain better the basis
     of students’ perceptions and experiences of IoC reported in this study.
     `,
-    tags:[`Higher education`,`Internationalisation of the curriculum`,`Graduate students`]
+    tags:[`Higher education`,`Internationalisation of the curriculum`,`Graduate students`],
+    pathToPdf:"Article35.pdf",
 }
+
+];
+
+export const publications: Array<{id: number,slug:string, title:string, date:string, shortName:string}> = [
+    {
+        id:3,
+        slug:`uher-vol10`,
+        title:`The Uganda Higher Education Review; Journal for National Council for Higher Education , Vol. 10 Issue 1 2022`,
+        date:`Dec 23, 2022`,
+        shortName:`Issue 1, Vol 10`
+    },
+    {
+        id:2,
+        slug:`uher-vol9`,
+        title:`The Uganda Higher Education Review; Journal for National Council for Higher Education , Vol. 9 Issue 2 2021`,
+        date:`August, 2021`,
+        shortName:`Issue 2, Vol 9`
+    },
+    
+
 
 ]

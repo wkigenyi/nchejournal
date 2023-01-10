@@ -9,7 +9,7 @@ export default function Footer(){
             <div className="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
               Uganda National Council For Higher Education
             </div>
-            <form className="needs-validation" novalidate>
+            <form className="needs-validation" noValidate>
               <label htmlFor="subscr-email" className="form-label">Subscribe</label>
               <div className="input-group">
                 <input type="email" id="subscr-email" className="form-control rounded-start ps-5" placeholder="Your email" required/>

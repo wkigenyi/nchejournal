@@ -1,10 +1,12 @@
 import { useRouter } from 'next/router';
-import Layout from '../../layouts/layout';
-import {articles} from '../../articleList';
+import Layout from '../../../../layouts/layout';
+import {articles,publications} from '../../../../articleList';
 import Link from 'next/link';
 export default function Article(){
-  const {id} = useRouter().query
+  const {id,slug} = useRouter().query
   const article = articles.find(a => a.id.valueOf() == id);
+  console.log(slug);
+  const publication = publications.find(a =>a.slug == slug);
   if(!article){
     return null
   }
@@ -16,9 +18,12 @@ export default function Article(){
             <Link href={"/"}><i className="bx bx-home-alt fs-lg me-1"></i>Home</Link>
           </li>
           <li className="breadcrumb-item">
-            <Link href={"/articles"}><i className="bx fs-lg me-1"></i>Vol 10, Issue 1</Link>
+            <Link href={"/publications"}><i className="bx fs-lg me-1"></i>Publications</Link>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">The Uganda Higher Education Review</li>
+          <li className="breadcrumb-item">
+            <Link href={`/publications/${slug}/articles`}><i className="bx fs-lg me-1"></i>{publication.shortName}</Link>
+          </li>
+          
         </ol>
       </nav>
 
@@ -76,11 +81,11 @@ export default function Article(){
           {/* Sharing */}
           <div className="col-lg-3 position-relative">
             <div className="sticky-top ms-xl-5 ms-lg-4 ps-xxl-4" style={{top:"105px !important"}}>
-              <button className="btn btn-lg btn-outline-secondary">
+              <a className="btn btn-lg btn-outline-secondary" href={`/articles/${article.pathToPdf}`}>
                 <i className="bx bx-download me-2 lead"></i>
-                Download
-                <span className="badge bg-primary shadow-primary mt-n1 ms-3">0</span>
-              </button>
+                Download Article
+                
+              </a>
             </div>
           </div>
         </div>

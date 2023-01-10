@@ -1,8 +1,15 @@
-import Layout from "../../layouts/layout";
-import { articles } from "../../articleList";
+import Layout from "../../../../layouts/layout";
+import { articles,publications } from "../../../../articleList";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function ArticleList(){
+    const {slug} = useRouter().query
+    const publication = publications.find(a => a.slug == slug)
+    if(!publication){
+      return null;
+    }
+    const articlesForThisPublication = articles.filter(a => a.publicationId == publication.id)
     return (
         <Layout>
             {/* Breadcrumb */}
@@ -11,7 +18,10 @@ export default function ArticleList(){
           <li className="breadcrumb-item">
             <Link href="/"><i className="bx bx-home-alt fs-lg me-1"></i>Home</Link>
           </li>
-          <li className="breadcrumb-item active" aria-current="page">Vol 10,Issue 1</li>
+          <li className="breadcrumb-item">
+            <Link href="/publications"><i className="bx fs-lg me-1"></i>Publications</Link>
+          </li>
+          <li className="breadcrumb-item active" aria-current="page">{publication.shortName}</li>
         </ol>
       </nav>
 
@@ -55,10 +65,10 @@ export default function ArticleList(){
           
 
           {/* Article */}
-          {articles.map((a,i) => <div key={i} className="col pb-3">
+          {articlesForThisPublication.map((a,i) => <div key={i} className="col pb-3">
             <article className="card border-0 shadow-sm h-100">
               <div className="position-relative">
-                <a href="blog-single.html" className="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
+                <a href={`/publications/${slug}/articles/${a.id}`} className="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
                 {/* <a href="#" className="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later">
                   <i className="bx bx-bookmark"></i>
                 </a> */}
@@ -71,7 +81,7 @@ export default function ArticleList(){
                   {/* <span className="fs-sm text-muted">Sep 16, 2021</span> */}
                 </div>
                 <h3 className="h5 mb-0">
-                  <Link href={`/articles/${a.id}`}>{a.title}</Link>
+                  <Link href={`/publications/${slug}/articles/${a.id}`}>{a.title}</Link>
                 </h3>
               </div>
               <div className="card-footer py-4">
